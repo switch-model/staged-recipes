@@ -87,8 +87,8 @@ if __name__ == '__main__':
     i = -1
     for feedstock in org.get_repos():
         i = i + 1
-        if i > split_num:
-            break
+        if feedstock.name != 'conda-feedstock':
+            continue
         if i % no_cases != split_num:
             continue
         print(i, feedstock.name)
