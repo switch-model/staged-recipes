@@ -2,12 +2,12 @@
 
 package:
   name: switch_model
-  version: 2.0.4
+  version: 2.0.5
 
 source:
   # url: https://pypi.io/packages/source/s/switch_model/switch_model-{{ version }}.tar.gz
-  url: https://files.pythonhosted.org/packages/6e/d6/d0dcf440eb86c8585962e133bbbc3c761548c70022289dd9d0af110c6ddb/switch_model-2.0.4.tar.gz
-  sha256: 5cd6abe2926e39a9a89d178ad316f45d9da681e0f0f110ffbd52a7bf9498c103
+  url: https://files.pythonhosted.org/packages/7c/cb/619851966d5965a79a91a144e410d1f4e6c6d7cb9ce471bd98712e910b3d/switch_model-2.0.5.tar.gz
+  sha256: 6dd2d6e1cf2a842e03a272131b4610062ee077ebd3ac5f30e80776ac929a4e43
 
 build:
   noarch: python
